@@ -10,9 +10,9 @@ function UsersComp(props) {
   const [showTodosAndPostsToggler, setShowTodosAndPostsToggler] = useState({ active: false, id: 0 })
   const [makeNewUser, setMakeNewUser] = useState(false)
   const [newUserData, setNewUserData] = useState({
-    "id": "", "name": "", "username": "Brad", "email": "Slayer@gmail.com",
+    "id": "", "name": "", "username": "Brad", "email": "",
     "address": {
-      "street": "rotchild",
+      "street": "egoz",
       "city": "Honolulu",
       "zipcode": "4343-4343"
     }
